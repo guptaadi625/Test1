@@ -1,0 +1,48 @@
+*{
+    /* position: relative; */
+    margin: 0;
+}
+body{
+background-color: bisque;
+}
+
+.sidebar1{
+    /* top: 2em; */
+    width: 15em;
+    margin-left: 10em;
+    background-color: black;
+    margin-top:4em ;
+    height: max-content;
+    max-height: fit-content;
+    border-radius: 2em;
+    padding: 2em;
+    position: absolute;
+    /* align-items: center; */
+    /* align-items: center; */
+    
+}
+.sidebar1 .img-box{
+    max-width: 10em;
+    background-color: grey;
+    margin: auto;
+    border-radius: 2em;
+    top: 2.5em;
+    
+}
+.sidebar1 img{
+    
+    height:10em;
+    margin: auto;
+    display: block;
+    /* text-align: center; */
+}
+.sidebar1 .name{
+    position: relative;
+    color: white;
+    top: 20em;
+    margin: auto;
+}
+.sidebar1 .name .h1{
+    /* text-align: center; */
+    /* margin: auto; */
+}
